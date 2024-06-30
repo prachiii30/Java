@@ -1,6 +1,6 @@
 public class maxWindowSize {
     public static void main(String[] args) {
-        int [] arr={2,50,1,1,100};
+        int [] arr={2,4,1,1,2};
         int k=14;
 
         int maxLen=0;
@@ -14,7 +14,7 @@ public class maxWindowSize {
             if(sum>k){
                 sum=sum-arr[ws];
                 ws++;
-                sum=sum+arr[we];
+                // sum=sum+arr[we];
             }
            
         }
