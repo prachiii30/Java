@@ -3,6 +3,7 @@
 public class permutation_string {
     public static void main(String[] args) {
         fun("abc","");
+        fun2("abc","");
     }
     public static void fun(String given,String ans){
         if(given.isEmpty()){
@@ -16,5 +17,6 @@ public class permutation_string {
             fun(given.substring(1),First+ch+Second);
         }
     }
+     
     
 }

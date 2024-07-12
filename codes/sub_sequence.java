@@ -11,7 +11,7 @@ public class sub_sequence {
         char ch=given.charAt(0);
 
         genereate_subSequence(given.substring(1), ans+ch);
-         genereate_subSequence(given.substring(1), ans);
+        genereate_subSequence(given.substring(1), ans);
     }
     
 }
