@@ -15,6 +15,8 @@ public class generateSubset_bitwise {
             result.add(list);
 
         }
+
+
         System.out.println(result);
 
 
