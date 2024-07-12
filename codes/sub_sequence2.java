@@ -17,7 +17,8 @@ public class sub_sequence2 {
             list.add(ans);
             return;
         }
-        arrayofSequenceApproach1(given.substring(1), ans+given.charAt(0), list);
+        char ch=given.charAt(0);
+        arrayofSequenceApproach1(given.substring(1), ans+ch, list);
         arrayofSequenceApproach1(given.substring(1), ans, list);
     }
 
