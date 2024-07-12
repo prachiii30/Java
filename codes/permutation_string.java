@@ -3,7 +3,7 @@
 public class permutation_string {
     public static void main(String[] args) {
         fun("abc","");
-        fun2("abc","");
+        // fun2("abc","");
     }
     public static void fun(String given,String ans){
         if(given.isEmpty()){
